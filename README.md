@@ -14,7 +14,7 @@ Available commands:
 
 Note: if local development is on, `add` and `remove` commands will immediately update the hosts file and trigger a DNS flush.
 
-Tip: To avoid being prompted by `sudo` for your password, you can add a line like this to your `/etc/sudoers` file (replace `markjaquith` with your user name):
+Tip: To avoid being prompted by `sudo` for your password, you can add a line like the following to your `/etc/sudoers` file (replace `markjaquith` with your user name). Always use `visudo` to edit your `/etc/sudoers` file, as it locks the file, runs some checks, and generally avoids bad things happening.
 
 ```
 markjaquith ALL = NOPASSWD: /usr/bin/localdev
